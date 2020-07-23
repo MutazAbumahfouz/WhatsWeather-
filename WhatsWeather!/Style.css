@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    font-size: 9rem;
+  text-align: center;
+height:30%;
+line-height: 175px;
+  color: #fcedd8;
+  background: #c11a2b;
+     font-family: 'Niconne', cursive;
+  font-weight: 700;
+text-shadow: 5px 5px 0px #eb452b, 
+            10px 10px 0px #efa032, 
+            15px 15px 0px #46b59b, 
+            20px 20px 0px #017e7f, 
+            25px 25px 0px #052939, 
+            30px 30px 0px #c11a2b, 
+            35px 35px 0px #c11a2b, 
+            40px 40px 0px #c11a2b, 
+            45px 45px 0px #c11a2b;
+}
+
+.text1style{
+text-align: center;
+font-family: "Helvetica";
+font-size:0.8rem;
+}
+
+.nm{
+color: #d52e3f;
+text-decoration: none;
+font-family: 'Niconne', cursive;
+font-size: 1.2rem;
+
+}
+
+.li{
+    color: blue;
+    text-decoration: none;
+    font-family: 'Niconne', cursive;
+    font-size: 1.2rem;
+    
+    }
+
+
+.input{
+    text-align: center;
+    margin-top: 0px;
+}
+
+input[type="text"]{
+    height: 50px;
+    width: 600px;
+    background: rgb(144, 224, 151);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    color: white;
+}
+
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background: rgb(53, 163, 10);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+}
+
+.box{
+    text-align: center;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;}
+
+.box{
+    margin-top: 65px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(0, 209, 17);
+    text-shadow: 1px 1px rgb(144, 224, 151);
+}
+
+.socialpics1{
+    margin: 0;
+    position: absolute;
+    margin-left: -1;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-right: 0;
+}
+
+.socialpics2{
+    position: absolute;
+    margin: 0;
+    margin-left: 24px;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+}
+
+.pics{
+    width: 35px ;
+    height: 35px ;
+}
